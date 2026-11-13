@@ -1,0 +1,38 @@
+# CMake build dir
+build/
+_build/
+cmake-build-*/
+
+# FetchContent downloaded deps
+_deps/
+
+# VS
+.vs/
+*.sln
+*.vcxproj*
+*.suo
+*.user
+*.xcodeproj
+
+# Linux
+*.o
+*.a
+*.so
+*.out
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 编译输出
+bin/
+bin/*
+
